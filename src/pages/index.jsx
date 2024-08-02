@@ -2,7 +2,7 @@ import React from "react";
 import NewMovies from "../features/HomePage/NewMovies";
 import NewTrailers from "../features/HomePage/NewTrailers";
 
-function homePage() {
+function HomePage() {
   return (
     <>
       <NewMovies />
@@ -11,4 +11,4 @@ function homePage() {
   );
 }
 
-export default homePage;
+export default HomePage;
