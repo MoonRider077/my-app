@@ -1,0 +1,56 @@
+.header {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    .logo_card {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header_menu {
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            gap: 50px;
+
+            li a {
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 17px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .btns {
+        display: flex;
+        gap: 12px;
+
+        .search_btn {
+            height: 53px;
+            width: 55px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login_btn {
+            background: #3657CB;
+            width: 138px;
+            height: 53px;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-weight: 700;
+            box-shadow: 0 0px 12px rgb(42, 57, 219);
+        }
+    }
+}

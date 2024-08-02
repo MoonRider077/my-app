@@ -2,10 +2,11 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import { Outlet } from "react-router-dom";
+import styles from "./MainLayout.module.scss"
 
 function MainLayout() {
   return (
-    <div>
+    <div className={styles.container} >
       <Header />
       <div>
         <Outlet />
